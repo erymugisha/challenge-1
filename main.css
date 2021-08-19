@@ -1,0 +1,98 @@
+
+.page-container {
+    padding: 70px 120px;
+    line-height: 40px;
+    display: flex;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 50;
+    margin: 10px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 15px;
+    width: 70%;
+    background-color: white;
+    box-shadow: 3px 7px 6px 5px rgb(194, 191, 191);
+    border-radius: 2px;
+    
+}
+.fist-bar {
+    background-color: #f18213;
+    width: 19%;
+    padding: 25px 45px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.box2 {
+    width: 19%;
+    padding: 25px 45px;
+    background-color: #025c64 ;
+}
+
+.last {
+    width: 19%;
+    background-color: #004040;
+    padding: 25px 45px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.a {
+    box-decoration-break: slice;
+    padding-top: 10px;
+}
+.page-container img {
+    padding-top: 25px;
+}
+.page-container a {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 550; 
+    font-style: initial;
+}
+.page-container p {
+    line-height: 140%;
+    font-weight: 500;
+}
+.fist-bar a {
+    color: #e28538;
+}
+.box2 a {
+    color: #026972;
+}
+.last a {
+    color: #004040;
+}
+.h2 {
+    font-size: medium
+}
+/* Mobile styles */
+@media (max-width: 375px) {
+    .page-container {
+        width: 98%;
+        height: 92%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fist-bar {
+        width: 95%;
+        height: 30%;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+    }
+    .box2 {
+        width: 95%;
+        height: 30%;
+    }
+    .last {
+        width: 95%;
+        height: 30%;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border-top-right-radius: 0px;
+    }
+}
