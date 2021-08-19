@@ -6,7 +6,7 @@
     color: white;
     font-family: "Gill Sans", sans-serif;
     font-weight: 50;
-    margin: 10px;
+    margin: 10px 0% 10px 5%;
     font-family: Lexend Deca;
     font-weight: 400;
     font-family: Big Shoulders Display;
@@ -19,20 +19,21 @@
     
 }
 .fist-bar {
+    margin-left: 6%;
     background-color: #f18213;
-    width: 19%;
+    width: 20%;
     padding: 25px 45px;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
 }
 .box2 {
-    width: 19%;
+    width: 20%;
     padding: 25px 45px;
     background-color: #025c64 ;
 }
 
 .last {
-    width: 19%;
+    width: 20%;
     background-color: #004040;
     padding: 25px 45px;
     border-top-right-radius: 8px;
@@ -68,6 +69,11 @@
 }
 .h2 {
     font-size: medium
+}
+.cta:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
 }
 /* Mobile styles */
 @media (max-width: 375px) {
